@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var proxy = require('http-proxy'),
 	localtunnel = require('localtunnel'),
 	yargs = require('yargs'),

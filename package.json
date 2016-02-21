@@ -1,6 +1,6 @@
 {
 	"name": "iis-express-tunnel",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "exposes your local instance of IIS Express to the world for easy testing and sharing! No need to mess with config files, dns, etc.",
 	"preferGlobal": true,
 	"main": "index.js",
