@@ -34,3 +34,10 @@ Below are the most common arguments (these come from localtunnel). See `iis-lt -
 
 -  `--subdomain` request a named subdomain on the localtunnel server (default is random characters)
 - `--open` open the url in a browser
+
+[npm-image]: https://img.shields.io/npm/v/iis-express-tunnel.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/iis-express-tunnel
+[license-image]: http://img.shields.io/npm/l/iis-express-tunnel.svg?style=flat-square
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/iis-express-tunnel.svg?style=flat-square
+[downloads-url]: https://www.npmjs.com/package/iis-express-tunnel
