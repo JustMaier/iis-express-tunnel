@@ -1,0 +1,38 @@
+{
+	"name": "iis-express-tunnel",
+	"version": "1.0.0",
+	"description": "exposes your local instance of IIS Express to the world for easy testing and sharing! No need to mess with config files, dns, etc.",
+	"preferGlobal": true,
+	"main": "index.js",
+	"bin": {
+		"iis-lt": "./index.js"
+	},
+	"keywords": [
+		"iisexpress",
+		"tunnel",
+		"localtunnel",
+		"testing",
+		"remote",
+		"visualstudio",
+		"vs",
+		"proxy"
+	],
+	"author": {
+		"name": "Justin Maier",
+		"email": "just.maier@gmail.com"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"http-proxy": "^1.13.2",
+		"localtunnel": "^1.8.1",
+		"openurl": "^1.1.1",
+		"yargs": "^4.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/justmaier/iis-express-tunnel.git"
+	},
+	"bugs": {
+		"url": "https://github.com/justmaier/iis-express-tunnel/issues"
+	}
+}
