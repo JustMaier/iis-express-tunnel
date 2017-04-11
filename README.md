@@ -8,7 +8,7 @@ A simple command-line utility that exposes your .NET web applications served by 
 
 Utilizes [localtunnel](https://github.com/localtunnel/localtunnel) to route traffic from the web to a local [http-proxy](https://github.com/nodejitsu/node-http-proxy) server that acts as a reverse proxy for you web app.
 
-##Installation
+## Installation
 
 ```
 npm install -g iis-express-tunnel
@@ -16,7 +16,7 @@ npm install -g iis-express-tunnel
 
 This will install iis-express-tunnel global and add the `iis-lt` client cli tool to your PATH
 
-##Use
+## Use
 
 Assuming your app is hosted on port 8000, just use the `iis-lt` command to start the tunnel.
 
@@ -28,7 +28,7 @@ Done! It will start the proxy server and use localtunnel to setup a tunnel to th
 
 You can start and stop you IIS Express server without having to restart the tunnel.
 
-###Arguments
+### Arguments
 
 Below are the most common arguments (these come from localtunnel). See `iis-lt --help` for additional argument
 
